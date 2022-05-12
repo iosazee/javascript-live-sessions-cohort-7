@@ -77,4 +77,26 @@ const lunchTime = 12
 const currentTime = 10
  
 currentTime === lunchTime ? console.log('take your lunch') : console.log('wait for lunch');
+
 // switch statements
+
+const city = 'benin';
+
+
+switch (city) {
+    case 'Lisbon':
+        console.log('Welcome to Lisbon')
+    break;
+    case 'Benin':
+        console.log('Welcome to Benin')
+    break;
+    case 'Stockholm':
+        console.log('Welcome to Stockholm');
+    break;
+    case 'Dusseldorf':
+        console.log('Welcome to Dusseldorf');
+    break;
+    default:
+        console.log('your city is not found');
+    break;
+}
