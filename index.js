@@ -70,5 +70,11 @@ else {
 // use || as well as &&
 // more than, less than operators for numbers
 // boolean conditionals
+
+
 // ternary operator
+const lunchTime = 12
+const currentTime = 10
+ 
+currentTime === lunchTime ? console.log('take your lunch') : console.log('wait for lunch');
 // switch statements
