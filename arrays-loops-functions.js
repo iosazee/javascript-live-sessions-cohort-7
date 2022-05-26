@@ -107,8 +107,34 @@ console.log(`${petersWelcomeMessage} and ${wendysWelcomeMessage}`)
 // combine function and conditionals
 // add a conditional inside the favourite food condition of your choice
 
+function foodMessageGenerator (favouriteFood, leastFavouriteFood) {
+    if(favouriteFood === 'pizza') {
+        console.log('enjoy your favourite food ' + food);
+    } else if(leastFavouriteFood === 'carrots') {
+        console.log('you are eating healthy')
+    } else {
+        console.log('this is not a food you like or dislike')
+    }
+}
+
+foodMessageGenerator('pasta', 'potatos');
+
 // combine function, loop and array
 // e.g create a cityWelcomeMessage function which uses the cities array and prints out a welcome message for each city
+const citiesArray = ['London', 'Madrid', 'Paris'];
+const countriesArray = ['France', 'Netherlands', 'Germany', 'Thailand', 'USA'];
+
+
+function welcomeMessageGenerator (array) {
+    for(let i = 0; i < array.length; i++) {
+        console.log(`Welcome to ${array[i]}`)
+    }
+}
+
+welcomeMessageGenerator(countriesArray);
+welcomeMessageGenerator(citiesArray);
+
+
 
 // combine function, loop, array and conditional
 // e.g. add an if statement to print out a different message for the city of your choice.
